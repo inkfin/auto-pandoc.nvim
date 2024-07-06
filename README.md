@@ -58,3 +58,4 @@ pandoc_:
 ## Todo/limitations
 
 - Plugin doesn't currently deal well with spaces in file and directory names.
+- The plugin is limited to processing single-level deep YAML configurations. Due to Pandoc's inconsistent YAML syntax across different settings, advanced structures like nested maps and lists should be configured within a standalone YAML file. [related issue](https://github.com/jghauser/auto-pandoc.nvim/issues/5)
